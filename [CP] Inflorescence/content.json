@@ -1,0 +1,19 @@
+{
+    "Format": "2.2.0",
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "{{ModID}}/Objects",
+            "FromFile": "assets/objects.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "{{ModID}}/Shop",
+            "FromFile": "assets/shop.png"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "code/mail.json, code/objects.json, code/recipes.json, code/machines.json, code/shops.json, code/spacecore.json"
+        }
+    ]
+}

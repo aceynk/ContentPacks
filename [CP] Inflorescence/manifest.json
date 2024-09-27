@@ -1,0 +1,23 @@
+{
+    "Name": "[CP] Inflorescence",
+    "Author": "aceynk",
+    "Version": "1.0.0",
+    "Description": "Adds functionality related to flowers to Stardew Valley",
+    "UniqueId": "aceynk.inflorescencecontent",
+    "UpdateKeys": [
+        "Github:aceynk/InflorescenceContent"
+    ],
+    "ContentPackFor": {
+        "UniqueId": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueId": "selph.ExtraMachineConfig",
+            "IsRequired": true
+        },
+        {
+            "UniqueId": "leclair.bettercrafting",
+            "IsRequired": true
+        }
+    ]
+}

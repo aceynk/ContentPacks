@@ -1,0 +1,164 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ModID}}_Inflor_Shop": {
+                    "Owners": [
+                        {
+                            "Name": "AnyOrNone",
+                            "Dialogues": [
+                                {
+                                    "Id": "{{ModID}}_Inflor_Silent",
+                                    "Dialogue": "..."
+                                },
+                                {
+                                    "Id": "{{ModID}}_Inflor_Cold",
+                                    "Condition": "SEASON winter",
+                                    "Dialogue": "It's so cold..."
+                                }
+                            ]
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "{{ModID}}_Sprinkler",
+                            "ItemId": "(O)599",
+                            "TradeItemId": "{{ModID}}_BronzeBouquet",
+                            "TradeItemAmount": 1,
+                            "AvailableStock": 3
+                        },
+                        {
+                            "Id": "{{ModID}}_QualitySprinkler",
+                            "ItemId": "(O)621",
+                            "TradeItemId": "{{ModID}}_BronzeBouquet",
+                            "TradeItemAmount": 3,
+                            "AvailableStock": 5
+                        },
+                        {
+                            "Id": "{{ModID}}_IridiumSprinkler",
+                            "ItemId": "(O)645",
+                            "TradeItemId": "{{ModID}}_SilverBouquet",
+                            "TradeItemAmount": 2,
+                            "AvailableStock": 3
+                        },
+                        {
+                            "Id": "{{ModID}}_MixedSeeds",
+                            "ItemId": "(O)770",
+                            "Price": 150,
+                            "AvailableStock": 10
+                        },
+                        {
+                            "Id": "{{ModID}}_MixedFlowerSeeds",
+                            "ItemId": "MixedFlowerSeeds",
+                            "Price": 100,
+                            "AvailableStock": 5
+                        },
+                        {
+                            "Id": "{{ModID}}_MixedSeeds2",
+                            "ItemId": "(O)770",
+                            "TradeItemId": "{{ModID}}_BronzeBouquet",
+                            "TradeItemAmount": 1,
+                            "AvailableStock": 5,
+                            "MinStack": 5
+                        },
+                        {
+                            "Id": "{{ModID}}_MixedFlowerSeeds2",
+                            "ItemId": "MixedFlowerSeeds",
+                            "TradeItemId": "{{ModID}}_BronzeBouquet",
+                            "TradeItemAmount": 1,
+                            "AvailableStock": 10,
+                            "MinStack": 5
+                        },
+                        {
+                            "Id": "{{ModID}}_FairySeeds",
+                            "ItemId": "(O)425",
+                            "TradeItemId": "{{ModID}}_SilverBouquet",
+                            "TradeItemAmount": 1,
+                            "Condition": "Season winter"
+                        },
+                        {
+                            "Id": "{{ModID}}_SilverBouquet",
+                            "ItemId": "{{ModID}}_SilverBouquet",
+                            "TradeItemId": "{{ModID}}_BronzeBouquet",
+                            "TradeItemAmount": 5
+                        },
+                        {
+                            "Id": "{{ModID}}_GoldBouquet",
+                            "ItemId": "{{ModID}}_GoldBouquet",
+                            "TradeItemId": "{{ModID}}_SilverBouquet",
+                            "TradeItemAmount": 5
+                        },
+                        {
+                            "Id": "{{ModID}}_SilverBouquet2",
+                            "ItemId": "{{ModID}}_SilverBouquet",
+                            "TradeItemId": "{{ModID}}_GoldBouquet",
+                            "TradeItemAmount": 1,
+                            "MinStack": 3
+                        },
+                        {
+                            "Id": "{{ModID}}_BronzeBouquet2",
+                            "ItemId": "{{ModID}}_BronzeBouquet",
+                            "TradeItemId": "{{ModID}}_SilverBouquet",
+                            "TradeItemAmount": 1,
+                            "MinStack": 3
+                        },
+                        {
+                            "Id": "{{ModID}}_InformantEarpiece",
+                            "ItemId": "(O){{ModID}}_InformantEarpiece",
+                            "TradeItemId": "{{ModID}}_GoldBouquet",
+                            "TradeItemAmount": 5,
+                            "Condition": "TIME 2200"
+                        },
+                        {
+                            "Id": "{{ModID}}_ScoreRadio",
+                            "ItemId": "(O){{ModID}}_ScoreRadio",
+                            "TradeItemId": "{{ModID}}_GoldBouquet",
+                            "TradeItemAmount": 1
+                        },
+                        {
+                            "Id": "{{ModID}}_StardropTea",
+                            "ItemId": "(O)StardropTea",
+                            "TradeItemId": "{{ModID}}_GoldBouquet",
+                            "TradeItemAmount": 20,
+                            "AvailableStock": 1,
+                            "Condition": "Season fall"
+                        },
+                        {
+                            "Id": "{{ModID}}_PowerGro",
+                            "ItemId": "(O){{ModID}}_PowerGro",
+                            "TradeItemId": "{{ModID}}_GoldBouquet",
+                            "TradeItemAmount": 3,
+                            "AvailableStock": 5
+                        },
+                        {
+                            "Id": "{{ModID}}_AshFurnace",
+                            "ItemId": "(BC){{ModID}}_AshFurnace",
+                            "TradeItemId": "{{ModID}}_GoldBouquet",
+                            "TradeItemAmount": 10,
+                            "AvailableStock": 1,
+                            "IsRecipe": true
+                        },
+                        {
+                            "Id": "{{ModID}}_Bouquet",
+                            "ItemId": "(O){{ModID}}_Bouquet",
+                            "TradeItemId": "{{ModID}}_GoldBouquet",
+                            "TradeItemAmount": 5,
+                            "AvailableStock": 1,
+                            "IsRecipe": true
+                        },
+                        {
+                            "Id": "{{ModID}}_SoapStation",
+                            "ItemId": "(BC){{ModID}}_SoapStation",
+                            "TradeItemId": "{{ModID}}_GoldBouquet",
+                            "TradeItemAmount": 3,
+                            "AvailableStock": 1,
+                            "IsRecipe": true
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

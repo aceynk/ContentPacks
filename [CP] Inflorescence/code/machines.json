@@ -1,0 +1,143 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModID}}_AshFurnace": {
+                    "Texture": "{{ModID}}/Objects",
+                    "SpriteIndex": 10,
+                    "Name": "{{ModID}}_AshFurnace",
+                    "DisplayName": "{{i18n:AshFurnace_name}}",
+                    "Description": "{{i18n:AshFurnace_desc}}"
+                },
+                "{{ModID}}_SoapStation": {
+                    "Texture": "{{ModID}}/Objects",
+                    "SpriteIndex": 11,
+                    "Name": "{{ModID}}_SoapStation",
+                    "DisplayName": "{{i18n:SoapStation_name}}",
+                    "Description": "{{i18n:SoapStation_desc}}"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)20",
+                "OutputRules"
+            ],
+            "Entries": {
+                "": {
+                    "Id": "{{ModID}}_Ash",
+                    "Triggers": [
+                        {
+                            "RequiredItemId": "(O){{ModID}}_Ash",
+                            "RequiredCount": 10
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "(O){{ModID}}_Lye",
+                            "MinStack": 1
+                        }
+                    ],
+                    "MinutesUntilReady": 1600
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC){{ModID}}_SoapStation": {
+                    "LoadEffects": [
+                        {
+                            "Sounds": [
+                                {
+                                    "Id": "bubbles",
+                                    "Delay": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "OutputRules": [
+                        {
+                            "Id": "{{ModID}}_Soap",
+                            "Triggers": [
+                                {
+                                    "RequiredTags": [
+                                        "inflor_flower_item"
+                                    ],
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "selph.ExtraMachineConfig_FLAVORED_ITEM {{ModID}}_Soap DROP_IN_ID",
+                                    "PriceModifiers": [
+                                        {
+                                            "Modification": "Add",
+                                            "Amount": 100
+                                        },
+                                        {
+                                            "Modification": "Multiply",
+                                            "Amount": 2
+                                        }
+                                    ],
+                                    "ObjectDisplayName": "{{i18n:Soap_flavoredname}}",
+                                    "PreserveId": "DROP_IN",
+                                    "MinStack": 1,
+                                    "CopyColor": true
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        }
+                    ],
+                    "AdditionalConsumedItems": [
+                        {
+                            "ItemId": "(O){{ModID}}_Lye",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "ItemId": "(O)247",
+                            "RequiredCount": 1
+                        }
+                    ]
+                },
+                "(BC){{ModID}}_AshFurnace": {
+                    "LoadEffects": [
+                        {
+                            "Sounds": [
+                                {
+                                    "Id": "furnace",
+                                    "Delay": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "OutputRules": [
+                        {
+                            "Id": "{{ModID}}_Ash",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "388",
+                                    "RequiredCount": 5
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "{{ModID}}_Ash",
+                                    "MinStack": 5
+                                }
+                            ],
+                            "MinutesUntilReady": 200
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

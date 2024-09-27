@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "{{ModID}}_AshFurnace": "388 25 390 100 335 15 337 1/Home/{{ModID}}_AshFurnace/true/",
+                "{{ModID}}_Bouquet": "597 1 591 1 421 1/Home/{{ModID}}_Bouquet/false/",
+                "{{ModID}}_SoapStation": "335 10 343 10 370 2/Home/{{ModID}}_SoapStation/true/"
+            }
+        }
+    ]
+}

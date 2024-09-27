@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "Inflorescence_MailGold": "{{i18n:Inflorescence_MailGold}}",
+                "Inflorescence_MailSilver": "{{i18n:Inflorescence_MailSilver}}",
+                "Inflorescence_MailBronze": "{{i18n:Inflorescence_MailBronze}}",
+                "Inflorescence_MailInitiation": "{{i18n:Inflorescence_MailInitiation}}"
+            }
+        }
+    ]
+}

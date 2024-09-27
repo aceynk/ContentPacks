@@ -1,0 +1,143 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}_GoldBouquet": {
+                    "Type": "Basic",
+                    "Category": -20,
+                    "Texture": "{{ModID}}/Objects",
+                    "Name": "Gold Bouquet",
+                    "DisplayName": "{{i18n:GoldBouquet_name}}",
+                    "Description": "{{i18n:GoldBouquet_desc}}",
+                    "Price": 500,
+                    "SpriteIndex": 2,
+                    "ContextTags": [
+                        "color_gold"
+                    ]
+                },
+                "{{ModID}}_SilverBouquet": {
+                    "Type": "Basic",
+                    "Category": -20,
+                    "Texture": "{{ModID}}/Objects",
+                    "Name": "Silver Bouquet",
+                    "DisplayName": "{{i18n:SilverBouquet_name}}",
+                    "Description": "{{i18n:SilverBouquet_desc}}",
+                    "Price": 250,
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "color_iron"
+                    ]
+                },
+                "{{ModID}}_BronzeBouquet": {
+                    "Type": "Basic",
+                    "Category": -20,
+                    "Texture": "{{ModID}}/Objects",
+                    "Name": "Bronze Bouquet",
+                    "DisplayName": "{{i18n:BronzeBouquet_name}}",
+                    "Description": "{{i18n:BronzeBouquet_desc}}",
+                    "Price": 100,
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "color_orange"
+                    ]
+                },
+                "{{ModID}}_PowerGro": {
+                    "Name": "Power Gro",
+                    "DisplayName": "{{i18n:PowerGro_name}}",
+                    "Description": "{{i18n:PowerGro_desc}}",
+                    "Type": "Basic",
+                    "Category": -19,
+                    "Price": 200,
+                    "Texture": "{{ModID}}/Objects",
+                    "SpriteIndex": 3,
+                    "ContextTags": [
+                        "not_giftable",
+                        "prevent_loss_on_death"
+                    ]
+                },
+                "{{ModID}}_ScoreRadio": {
+                    "Name": "Score Radio",
+                    "DisplayName": "{{i18n:ScoreRadio_name}}",
+                    "Description": "{{i18n:ScoreRadio_desc}}",
+                    "Type": "Basic",
+                    "Category": -99,
+                    "Price": 25,
+                    "Texture": "{{ModID}}/Objects",
+                    "SpriteIndex": 4,
+                    "ContextTags": [
+                        "not_giftable",
+                        "prevent_loss_on_death"
+                    ]
+                },
+                "{{ModID}}_InformantEarpiece": {
+                    "Name": "Informant Earpiece",
+                    "DisplayName": "{{i18n:InformantEarpiece_name}}",
+                    "Description": "{{i18n:InformantEarpiece_desc}}",
+                    "Type": "Basic",
+                    "Category": -99,
+                    "Price": 15,
+                    "Texture": "{{ModID}}/Objects",
+                    "SpriteIndex": 5,
+                    "ContextTags": [
+                        "not_giftable",
+                        "prevent_loss_on_death"
+                    ]
+                },
+                "{{ModID}}_Ash": {
+                    "Name": "Ash",
+                    "DisplayName": "{{i18n:Ash_name}}",
+                    "Description": "{{i18n:Ash_desc}}",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 1,
+                    "Texture": "{{ModID}}/Objects",
+                    "SpriteIndex": 10,
+                    "ContextTags": [
+                        "color_gray"
+                    ]
+                },
+                "{{ModID}}_Bouquet": {
+                    "Name": "{{ModID}}_Bouquet",
+                    "DisplayName": "{{i18n:Bouquet_name}}",
+                    "Description": "{{i18n:Bouquet_desc}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 200,
+                    "Texture": "{{ModID}}/Objects",
+                    "SpriteIndex": 16,
+                    "ContextTags": [
+                        "color_green"
+                    ]
+                },
+                "{{ModID}}_Lye": {
+                    "Name": "Lye",
+                    "DisplayName": "{{i18n:Lye_name}}",
+                    "Description": "{{i18n:Lye_desc}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 5,
+                    "Texture": "{{ModID}}/Objects",
+                    "SpriteIndex": 11,
+                    "ContextTags": [
+                        "color_sand"
+                    ]
+                },
+                "{{ModID}}_Soap": {
+                    "Name": "Soap",
+                    "DisplayName": "{{i18n:Soap_name}}",
+                    "Description": "{{i18n:Soap_desc}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "{{ModID}}/Objects",
+                    "SpriteIndex": 26,
+                    "ContextTags": [
+                        "color_sand"
+                    ]
+                }
+            }
+        }
+    ]
+}

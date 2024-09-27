@@ -1,0 +1,21 @@
+.vscode
+start.sh
+module
+assets/*.png
+assets/*.aseprite
+venv
+Tests
+
+CustomMossTest
+\[CP\]\ PNW\ Shrooms
+\[CP\]\ Stardew\ HRT
+SpearTest
+
+assets/pnwshrooms
+
+custommoss.py
+PersistentSpeed.py
+pnwshrooms.py
+pricechange.py
+sdvhrt.py
+spear.py
