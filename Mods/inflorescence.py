@@ -8,7 +8,6 @@ m: Mod = Mod(
     version = "1.0.0",
     description = "Adds functionality related to flowers to Stardew Valley",
     uid = "aceynk.inflorescencecontent",
-    update_key_github = "aceynk/InflorescenceContent",
     update_key_nexus = 0,
     dependencies = [
         {
