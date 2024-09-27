@@ -18,6 +18,10 @@ m: Mod = Mod(
         {
             "UniqueId": "leclair.bettercrafting",
             "IsRequired": True
+        },
+        {
+            "UniqueId": "spacechase0.SpaceCore",
+            "IsRequired": True
         }
     ]
 )
@@ -60,6 +64,7 @@ m.i18n_internal['default'] = {
     "Soap_desc": "A fragrant bar of solid soap.",
     "SoapStation_name": "Soap Station",
     "SoapStation_desc": "A convenient station for soapmaking.",
+    "SpaceCore_Bouquet": "Bouquet"
 }
 
 i18n = m.i18n
@@ -122,6 +127,21 @@ ShopsCurry = Entry_Curry(
     action = "EditData",
     target = "Data/Shops",
     register_with = Shops
+)
+
+SCBouquet = Entry_Curry(
+    action="EditData",
+    target="spacechase0.SpaceCore/ObjectExtensionData",
+    entry={
+        "CategoryTextOverride": i18n("SpaceCore_Bouquet"),
+        "CategoryColorOverride": {
+            "R": 120,
+            "G": 230,
+            "B": 120,
+            "A": 255
+        }
+    },
+    register_with = SpaceCore
 )
 
 ### MAIL ###
@@ -659,6 +679,20 @@ ShopsCurry(
             }
         ]
     }
+)
+
+### SPACECORE ###
+
+SCBouquet(
+    entry_id = "_BronzeBouquet"
+)
+
+SCBouquet(
+    entry_id = "_SilverBouquet"
+)
+
+SCBouquet(
+    entry_id = "_GoldBouquet"
 )
 
 ### ASSETS ###
