@@ -10,4 +10,4 @@ A list of content packs currently hosted here, and a link to accompaniment mods 
 
 | Mod Name           | Summary                                                     | Accompaniment                                            |
 | ------------------ | ----------------------------------------------------------- | -------------------------------------------------------- |
-| [CP] Inflorescence | A content pack adding features to flowers in Stardew Valley | [Inflorescence](https://github.com/aceynk/Inflorescence) |
+| [[CP] Inflorescence](https://github.com/aceynk/ContentPacks/tree/main/%5BCP%5D%20Inflorescence) | A content pack adding features to flowers in Stardew Valley | [Inflorescence](https://github.com/aceynk/Inflorescence) |
