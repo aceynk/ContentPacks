@@ -1,3 +1,37 @@
 {
-    "Changes": []
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "{{ModID}}_BronzeBouquet": {
+                    "CategoryTextOverride": "{{i18n:SpaceCore_Bouquet}}",
+                    "CategoryColorOverride": {
+                        "R": 120,
+                        "G": 230,
+                        "B": 120,
+                        "A": 255
+                    }
+                },
+                "{{ModID}}_SilverBouquet": {
+                    "CategoryTextOverride": "{{i18n:SpaceCore_Bouquet}}",
+                    "CategoryColorOverride": {
+                        "R": 120,
+                        "G": 230,
+                        "B": 120,
+                        "A": 255
+                    }
+                },
+                "{{ModID}}_GoldBouquet": {
+                    "CategoryTextOverride": "{{i18n:SpaceCore_Bouquet}}",
+                    "CategoryColorOverride": {
+                        "R": 120,
+                        "G": 230,
+                        "B": 120,
+                        "A": 255
+                    }
+                }
+            }
+        }
+    ]
 }

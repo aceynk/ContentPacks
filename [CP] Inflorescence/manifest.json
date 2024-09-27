@@ -18,6 +18,10 @@
         {
             "UniqueId": "leclair.bettercrafting",
             "IsRequired": true
+        },
+        {
+            "UniqueId": "spacechase0.SpaceCore",
+            "IsRequired": true
         }
     ]
 }
