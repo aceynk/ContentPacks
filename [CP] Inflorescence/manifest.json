@@ -4,9 +4,7 @@
     "Version": "1.0.0",
     "Description": "Adds functionality related to flowers to Stardew Valley",
     "UniqueId": "aceynk.inflorescencecontent",
-    "UpdateKeys": [
-        "Github:aceynk/InflorescenceContent"
-    ],
+    "UpdateKeys": [],
     "ContentPackFor": {
         "UniqueId": "Pathoschild.ContentPatcher"
     },

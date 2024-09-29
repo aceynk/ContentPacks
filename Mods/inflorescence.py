@@ -95,7 +95,7 @@ ObjectCurry = Entry_Curry(
 Flower_Currency = Entry_Curry(
     entry = {
         "Type": "Basic",
-        "Category": -20,
+        "Category": -16,
         "Texture": "{{ModID}}/Objects"
     },
     to_curry = ObjectCurry

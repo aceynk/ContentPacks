@@ -6,7 +6,7 @@
             "Entries": {
                 "{{ModID}}_GoldBouquet": {
                     "Type": "Basic",
-                    "Category": -20,
+                    "Category": -16,
                     "Texture": "{{ModID}}/Objects",
                     "Name": "Gold Bouquet",
                     "DisplayName": "{{i18n:GoldBouquet_name}}",
@@ -19,7 +19,7 @@
                 },
                 "{{ModID}}_SilverBouquet": {
                     "Type": "Basic",
-                    "Category": -20,
+                    "Category": -16,
                     "Texture": "{{ModID}}/Objects",
                     "Name": "Silver Bouquet",
                     "DisplayName": "{{i18n:SilverBouquet_name}}",
@@ -32,7 +32,7 @@
                 },
                 "{{ModID}}_BronzeBouquet": {
                     "Type": "Basic",
-                    "Category": -20,
+                    "Category": -16,
                     "Texture": "{{ModID}}/Objects",
                     "Name": "Bronze Bouquet",
                     "DisplayName": "{{i18n:BronzeBouquet_name}}",
