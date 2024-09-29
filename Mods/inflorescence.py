@@ -134,9 +134,9 @@ SCBouquet = Entry_Curry(
     entry={
         "CategoryTextOverride": i18n("SpaceCore_Bouquet"),
         "CategoryColorOverride": {
-            "R": 120,
-            "G": 230,
-            "B": 120,
+            "R": 62,
+            "G": 107,
+            "B": 62,
             "A": 255
         }
     },

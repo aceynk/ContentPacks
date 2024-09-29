@@ -5,6 +5,7 @@ assets/*.png
 assets/*.aseprite
 venv
 Tests
+*.zip
 
 CustomMossTest
 \[CP\]\ PNW\ Shrooms
