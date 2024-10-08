@@ -176,7 +176,7 @@ Gold = Flower_Currency(
         "DisplayName": i18n("GoldBouquet_name"),
         "Description": i18n("GoldBouquet_desc"),
         "Price": 500,
-        "SpriteIndex": 2,
+        "SpriteIndex": 24,
         "ContextTags": [
             "color_gold"
         ]
@@ -190,7 +190,7 @@ Silver = Flower_Currency(
         "DisplayName": i18n("SilverBouquet_name"),
         "Description": i18n("SilverBouquet_desc"),
         "Price": 250,
-        "SpriteIndex": 1,
+        "SpriteIndex": 23,
         "ContextTags": [
             "color_iron"
         ]
@@ -204,7 +204,7 @@ Bronze = Flower_Currency(
         "DisplayName": i18n("BronzeBouquet_name"),
         "Description": i18n("BronzeBouquet_desc"),
         "Price": 100,
-        "SpriteIndex": 0,
+        "SpriteIndex": 22,
         "ContextTags": [
             "color_orange"
         ]
@@ -213,6 +213,7 @@ Bronze = Flower_Currency(
 
 ### ITEMS ###
 
+## POWER GRO ##
 ObjectCurry(
     entry_id = "_PowerGro",
     entry = {
@@ -231,6 +232,7 @@ ObjectCurry(
     }
 )
 
+## SCORE RADIO ##
 ObjectCurry(
     entry_id = "_ScoreRadio",
     entry = {
@@ -249,6 +251,7 @@ ObjectCurry(
     }
 )
 
+## INFORMANT EARPIECE ##
 ObjectCurry(
     entry_id = "_InformantEarpiece",
     entry = {
@@ -267,6 +270,7 @@ ObjectCurry(
     }
 )
 
+## ASH ##
 ObjectCurry(
     entry_id = "_Ash",
     entry = {
@@ -284,6 +288,7 @@ ObjectCurry(
     }
 )
 
+## BOUQUET ##
 ObjectCurry(
     entry_id = "_Bouquet",
     entry = {
@@ -301,6 +306,7 @@ ObjectCurry(
     }
 )
 
+## LYE ##
 ObjectCurry(
     entry_id = "_Lye",
     entry = {
@@ -311,13 +317,14 @@ ObjectCurry(
         "Category": -26,
         "Price": 5,
         "Texture": "{{ModID}}/Objects",
-        "SpriteIndex": 11,
+        "SpriteIndex": 12,
         "ContextTags": [
             "color_sand"
         ]
     }
 )
 
+## SOAP ##
 ObjectCurry(
     entry_id = "_Soap",
     entry = {
@@ -327,11 +334,19 @@ ObjectCurry(
         "Type": "Basic",
         "Category": -26,
         "Price": 100,
+        #"Edibility": 1,
+        #"IsDrink": False,
         "Texture": "{{ModID}}/Objects",
-        "SpriteIndex": 26,
+        "SpriteIndex": 36,
         "ContextTags": [
             "color_sand"
-        ]
+        ],
+        #"Buffs": [
+        #    {
+        #        "Id": "Food",
+        #        "Duration": 520
+        #    }
+        #]
     }
 )
 
@@ -339,7 +354,7 @@ ObjectCurry(
 
 RecipeCurry(
     entry_id = "_AshFurnace",
-    entry = "388 25 390 100 335 15 337 1/Home/{{ModID}}_AshFurnace/true/"
+    entry = "388 25 390 100 335 15/Home/{{ModID}}_AshFurnace/true/"
 )
 
 RecipeCurry(
@@ -349,7 +364,7 @@ RecipeCurry(
 
 RecipeCurry(
     entry_id = "_SoapStation",
-    entry = "335 10 343 10 370 2/Home/{{ModID}}_SoapStation/true/"
+    entry = "335 10 390 25 370 2/Home/{{ModID}}_SoapStation/true/"
 )
 
 ### BIG CRAFTABLES ###
@@ -644,7 +659,7 @@ ShopsCurry(
                 "Id": "{{ModID}}_PowerGro",
                 "ItemId": "(O){{ModID}}_PowerGro",
                 "TradeItemId": Gold.entry_id,
-                "TradeItemAmount": 3,
+                "TradeItemAmount": 1,
                 "AvailableStock": 5
             },
 
@@ -654,7 +669,7 @@ ShopsCurry(
                 "Id": "{{ModID}}_AshFurnace",
                 "ItemId": "(BC){{ModID}}_AshFurnace",
                 "TradeItemId": Gold.entry_id,
-                "TradeItemAmount": 10,
+                "TradeItemAmount": 5,
                 "AvailableStock": 1,
                 "IsRecipe": True
             },

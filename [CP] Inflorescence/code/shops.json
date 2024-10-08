@@ -129,14 +129,14 @@
                             "Id": "{{ModID}}_PowerGro",
                             "ItemId": "(O){{ModID}}_PowerGro",
                             "TradeItemId": "{{ModID}}_GoldBouquet",
-                            "TradeItemAmount": 3,
+                            "TradeItemAmount": 1,
                             "AvailableStock": 5
                         },
                         {
                             "Id": "{{ModID}}_AshFurnace",
                             "ItemId": "(BC){{ModID}}_AshFurnace",
                             "TradeItemId": "{{ModID}}_GoldBouquet",
-                            "TradeItemAmount": 10,
+                            "TradeItemAmount": 5,
                             "AvailableStock": 1,
                             "IsRecipe": true
                         },

@@ -11,6 +11,7 @@ CustomMossTest
 \[CP\]\ PNW\ Shrooms
 \[CP\]\ Stardew\ HRT
 SpearTest
+macrotest
 
 assets/pnwshrooms
 
@@ -20,3 +21,4 @@ pnwshrooms.py
 pricechange.py
 sdvhrt.py
 spear.py
+macrotest.py
